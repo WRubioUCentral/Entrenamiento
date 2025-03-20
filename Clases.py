@@ -40,7 +40,8 @@ class CargaDB:                                                              ##M√
             #print("\n\n\tConexi√≥n a MongoDB exitosa\n\n")
 
             ##Carga
-            data = {'Neuronas': f'{n}',
+            data = {'Liberria': 'Torch',
+                    'Neuronas': f'{n}',
                     'Funcion_activacion': f'{funact}',
                     'Capas_ocultas': '1',
                     'NSteps' : f'{N_STEPS}',
